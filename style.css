@@ -1,0 +1,54 @@
+form {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #f0f0f0;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: auto;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/*
+    Dashboard Styles
+*/
+#study-plans {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+}
+
+.study-plan {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+}
+
+.study-plan h4 {
+    margin: 0;
+}
+
+.study-plan p {
+    margin: 5px 0;
+}
+  
